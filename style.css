@@ -1,0 +1,151 @@
+body {
+    font-family:'Rubik Mono One';;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.fefe{
+    width: 100%;
+    background-image: url("https://ua.izzi.digital/DOS/306708/datastore/21/publication/306708/pictures/2023/03/02/f509a6a742aa547d42e6b5805e0486e1_41_001.jpg?v=1713641341");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:black;
+    height: 100px;
+}
+
+.logo{
+    width:100px;
+    height:80px;
+}
+
+nav{
+    display: flex;
+    gap: 40px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    transition: 0.3s all ease-in;
+
+}
+
+nav a:hover{
+    color:#FFE347;
+    transform: scale(1.2);
+    transition: 0.3s all ease-in;
+}
+
+header, h1{
+    text-align:center;
+}
+
+.about_text{
+   text-align: center;
+   border-bottom:2px solid black ;
+   padding-bottom: 30px;
+}
+
+main{
+    padding-top: 50px;
+}
+
+.cloth{
+    width: 30%;
+    border-radius:2px solid black
+
+}
+
+.cloth_img{
+    width: 100%;
+}
+
+.catalog{
+    padding: 0 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+footer{
+    display: flex;
+    gap:10px;
+    justify-content: space-between;
+    font-size: 16px;
+    background-color: #8a817c;
+    color:white;
+}
+
+.fefe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+}
+
+.form input{
+    padding: 5px 15px;
+    border-radius:20px;
+    border:3px solid black;
+}
+
+.form button{
+    background-color:red;
+    padding: 5px 15px;
+    border-radius:20px;
+    border:3px solid black;
+    cursor: pointer;
+    transition: 0.2s all linear;
+}
+
+.form button:hover{
+    transform: scale(1.2);
+}
+
+.grey{
+    font-size:14px;
+    color:#d9d9d9;
+}
+
+footer a{
+    text-decoration:none;
+}
+
+.cloth img{
+    transition: 0.5s all  linear;
+}
+
+.cloth:hover img{
+    transform:rotateY(180deg);
+}
+
+.help{
+    position:fixed;
+    bottom:10px;
+    left:10px;
+    width:50px;
+    height:50px;
+    cursor:pointer;
+    transition: 0.2s all linear;
+}
+
+.help img{
+    width: 100%;
+}
+
+.help:hover{
+    transform:scale(1.1)
+}
+
